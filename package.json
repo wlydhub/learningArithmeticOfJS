@@ -1,0 +1,24 @@
+{
+  "name": "learningarithmeticofjs",
+  "version": "1.0.0",
+  "description": "这是王力宇学习js版数据结构与算法的项目",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest --coverage"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wlydhub/learningArithmeticOfJS.git"
+  },
+  "author": "wly",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/wlydhub/learningArithmeticOfJS/issues"
+  },
+  "homepage": "https://github.com/wlydhub/learningArithmeticOfJS#readme",
+  "devDependencies": {
+    "@babel/preset-env": "^7.4.3",
+    "babel-jest": "^24.7.0",
+    "jest": "^24.7.0"
+  }
+}
