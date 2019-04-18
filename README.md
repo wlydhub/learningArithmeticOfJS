@@ -16,4 +16,10 @@ npm install jest babel-jest @babel/preset-env --save-dev
   "presets": ["@babel/preset-env"]
 }
 ```
-(5)创建code和test目录,开始学习与测试
+(5)创建 .eslintrc 文件
+```
+{
+  "extends": ["standard","plugin:jest/recommended"]
+}
+```
+(6)创建code和test目录,开始学习与测试
