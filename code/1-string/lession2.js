@@ -37,6 +37,7 @@ export default (str) => {
     const s1 = s.match(/^(0+|1+)/)[0];
     // s1取反,然后复制和s1对应的位数
     const s2 = (s1[0] ^ 1).toString().repeat(s1.length);
+    // 创建正则表达式
     const reg = new RegExp(`^(${s1}${s2})`);
     if(reg.test(s)){
       return RegExp.$1;
@@ -64,4 +65,5 @@ export default (str) => {
  * str.slice() -> 摘取一个字符串区域，返回一个新的字符串。
  * str.match(regexp) -> 方法检索返回一个字符串匹配正则表达式的的结果。
  * str.repeat(count) -> 构造并返回一个新字符串，该字符串包含被连接在一起的指定数量的字符串的副本。
+ * 0/1 ^ 1  ->  0/1 取反
  */
