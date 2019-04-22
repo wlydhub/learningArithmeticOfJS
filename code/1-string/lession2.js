@@ -41,7 +41,7 @@ export default (str) => {
     const reg = new RegExp(`^(${s1}${s2})`);
     if(reg.test(s)){
       return RegExp.$1;
-    } 
+    }
     return '';
   }
   
@@ -51,7 +51,7 @@ export default (str) => {
       arr.push(sub);
     }
   }
-  return arr
+  return arr;
 }
 
 /**
